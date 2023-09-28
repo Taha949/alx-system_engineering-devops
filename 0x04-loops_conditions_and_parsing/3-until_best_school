@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# best school
+# print "Best School" *10
 
 i=0
 
-while [ $i -lt 10 ]
+until [ $i -ge 10 ]
 do
   echo "Best School"
   ((i++))
